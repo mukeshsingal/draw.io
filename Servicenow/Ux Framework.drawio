@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T07:20:18.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.3" etag="NYxDR4V0SxdkNkI2FrCG" type="github"><diagram id="p-5o30kphs4qXjMBL4sr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-05T07:32:54.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="eRBr49zOBDHnrmltA7Xt" version="20.2.3" type="github">
+  <diagram id="p-5o30kphs4qXjMBL4sr" name="Page-1">
+    <mxGraphModel dx="2439" dy="874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZbEINIDrhas96IdCA4no-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="ZbEINIDrhas96IdCA4no-2" target="ZbEINIDrhas96IdCA4no-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="ZbEINIDrhas96IdCA4no-2" target="ZbEINIDrhas96IdCA4no-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-2" value="Screen Collection&lt;br style=&quot;font-size: 14px;&quot;&gt;(sys_ux_screen_type)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-137" y="24" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-3" value="&lt;span style=&quot;text-align: start; font-size: 14px;&quot;&gt;&lt;font face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;UX&amp;nbsp;App&amp;nbsp;Routes&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;font face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(sys_ux_app_route&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-337" y="238" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-4" value="&lt;span style=&quot;text-align: start; font-size: 14px;&quot;&gt;&lt;font face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;UX&amp;nbsp;Screens&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;font face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(sys_ux_screen)&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="44" y="238" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="ZbEINIDrhas96IdCA4no-7" target="ZbEINIDrhas96IdCA4no-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="ZbEINIDrhas96IdCA4no-7" target="ZbEINIDrhas96IdCA4no-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-7" value="&lt;span style=&quot;text-align: start; font-size: 14px;&quot;&gt;&lt;font face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;UX&amp;nbsp;App&amp;nbsp;Routes&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;font face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(sys_ux_app_route&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-327" y="248" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZbEINIDrhas96IdCA4no-8" target="ZbEINIDrhas96IdCA4no-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="ZbEINIDrhas96IdCA4no-8" target="ZbEINIDrhas96IdCA4no-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="ZbEINIDrhas96IdCA4no-8" target="ZbEINIDrhas96IdCA4no-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-8" value="&lt;span style=&quot;text-align: start; font-size: 14px;&quot;&gt;&lt;font face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;UX&amp;nbsp;Screens&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;font face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(sys_ux_screen)&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="54" y="248" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-9" value="&lt;span style=&quot;text-align: start; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot;&gt;UX APP Configuration&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/font&gt;(sys_ux_app_config)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="469" y="427" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-11" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot;&gt;Page Definition&lt;br&gt;&lt;/font&gt;(sys_ux_macroponent)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="464" y="207" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-12" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot;&gt;Parent Component&lt;br&gt;&lt;/font&gt;(sys_ux_macroponent)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="469" y="317" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-15" value="&lt;span style=&quot;text-align: start; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot;&gt;UX APP Configuration&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/font&gt;(sys_ux_app_config)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="413" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-17" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot;&gt;Parent Component&lt;br&gt;&lt;/font&gt;(sys_ux_macroponent)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="303" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbEINIDrhas96IdCA4no-20" value="&lt;span style=&quot;text-align: start; font-size: 14px;&quot;&gt;&lt;font face=&quot;SourceSansPro, Helvetica Neue, Arial&quot; color=&quot;#2e2e2e&quot;&gt;Event Mapping (JSON)&lt;/font&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-658" y="507" width="206" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
