@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T01:08:00.286Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.3" etag="Zxffx560CbeJQnFvs4sK" type="github"><diagram id="RXA2dWbRVg4HMAtLKF4-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-10T01:41:45.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TiljPLc4usLiq2NhOsDL" version="20.2.3" type="github">
+  <diagram id="RXA2dWbRVg4HMAtLKF4-" name="Page-1">
+    <mxGraphModel dx="2499" dy="874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="UHvxiOsH1d1V4Vs-B22a-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-9" value="Declarative Action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="UHvxiOsH1d1V4Vs-B22a-8">
+          <mxGeometry x="-0.0083" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-1" value="sys_ux_form_action" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-194" y="74" width="179" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-2" value="sys_ux_form_action_layout_item" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="218" y="798" width="309" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-3" value="sys_declarative_action_assignment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="234" y="69" width="309" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-4" value="sys_ux_addon_event_mapping" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#b1ddf0;strokeColor=#10739e;fontColor=#0D0D0D;labelBorderColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-182" y="531" width="309" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.019;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" edge="1" parent="1" source="UHvxiOsH1d1V4Vs-B22a-5" target="UHvxiOsH1d1V4Vs-B22a-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-5" value="sys_declarative_action_payload_definition" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-162" y="352" width="309" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-7" value="1. Action Type&lt;br&gt;2. Table" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-194" y="145" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-10" value="1. Action Name&lt;br&gt;2. Implemented As (Client Action)&lt;br&gt;3. Specify Client Action&lt;br&gt;4. Table&lt;br&gt;5. Tooltip" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="560" y="97" width="335" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-11" value="1. Key&lt;br&gt;2. Label&lt;br&gt;3. Applicable To&lt;br&gt;4. Payload" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="367" width="335" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-13" value="sys_declarative_action_payload_mapping" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="299" y="350" width="309" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-14" value="1. Map Field to Value&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Fields&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="621" y="362" width="159" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-16" value="1. Event Mapping Name&lt;br&gt;2. Source Element ID&lt;br&gt;3. Declarative Action&lt;br&gt;4. Parent Macroponent&lt;br&gt;5. Taget Event&lt;br&gt;6. Target Payload Mapping" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="170" y="571" width="335" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UHvxiOsH1d1V4Vs-B22a-21" value="sys_ux_form_action_layout" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="798" width="309" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
