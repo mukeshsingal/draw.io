@@ -1,1 +1,261 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T04:44:31.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.3.3" etag="ORWSwso_1R_r76kksKxj" type="github"><diagram id="LHhpNYexks6EQGsWMt2F">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-20T05:57:56.858Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HghaJEk9wRDp2jFUp1wM" version="20.3.3" type="github" pages="2">
+  <diagram id="LHhpNYexks6EQGsWMt2F" name="Description">
+    <mxGraphModel dx="1972" dy="874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gzdf1plxLHDYl8dRvQ8k-1" value="Overview Page to Investigation Canvas" style="text;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-60.004473266601565" y="126.99611450195312" width="237" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzdf1plxLHDYl8dRvQ8k-2" value="&lt;p&gt;This will apply only when investigation canvas is enabled.&amp;nbsp;&lt;/p&gt;&lt;p&gt;When navigating, based on the entry point, filters should be auto-applied.&amp;nbsp;&lt;/p&gt;&lt;p&gt;For example, if a user clicks the malicious observables, then while navigating to the Investigation canvas to the observable table, malicious observables filters should be auto-applied.&amp;nbsp;&lt;/p&gt;&lt;p&gt;In general, the navigation should be enabled for CIs, Users and Observables.&amp;nbsp;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="181" width="550" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzdf1plxLHDYl8dRvQ8k-3" value="Investigation Canvas Rendering" style="text;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-66.00447326660151" y="375.9961145019531" width="198" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzdf1plxLHDYl8dRvQ8k-5" value="&lt;p&gt;The investigation canvas should read the configuration and render accordingly.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;Backend - There will be a dedicated section to the left that will hold the entry points navigation and the associated info section filters. This section should be collapsible.&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;UI -&amp;nbsp;&lt;/b&gt;The entry points should be selected from a drop down. These entry points should be listed in the drop down based on the configurations defined.&lt;/p&gt;&lt;p&gt;&lt;b&gt;UI - &lt;/b&gt;The Filters section within the left hand section will start appearing only when associated info view is opened.&lt;/p&gt;&lt;p&gt;&lt;b&gt;UI - &lt;/b&gt;There will be a top banner to show info message, expand associated tables, collapse associated tables, and Close view&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Backend - There should be parent tables rendered by default under each entry point.&lt;/span&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Backend -&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;When one or more records on the parent table is selected, and the user clicks View associated info, if the children table have data already, then the latest result should be filtered by default across all the children table per vendor. As an exception, only for exchange online related investigation canvas, all results will be shown in the child table.&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;p&gt;&lt;b&gt;UI -&amp;nbsp;&lt;/b&gt;View Associated info action will behave like any list action showing the count of selected records.&lt;/p&gt;&lt;p&gt;&lt;b&gt;UI - &lt;/b&gt;There should be an indication to let the user know the number of parent records for which the associated information is shown. This will be available in the top banner&lt;/p&gt;&lt;p&gt;&lt;b&gt;UI -&amp;nbsp;&lt;/b&gt;When the associated info section is opened, and if the user performs any other action on the list, the view associated info action should also be executed. This is to ensure that the associated info section shows the latest data. It is fine even if the calls are happening asynchronously.&lt;/p&gt;&lt;p&gt;&lt;b&gt;UI - &lt;/b&gt;When the associated info section is not opened, and if the user performs any other action on the list, the view associated info action need not be&amp;nbsp; executed.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;b&gt;UI - &lt;/b&gt;The Analyst should be able to perform all the actions that are available on the parent or children table at the table level.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;b&gt;UI - &lt;/b&gt;After performing the action, the results should be populated appropriately in the resultant table.&lt;/p&gt;&lt;p&gt;&lt;b&gt;UI -&amp;nbsp;&lt;/b&gt;The top banner should have the ability to perform&amp;nbsp; and expanding/collapsing.&amp;nbsp;&lt;/p&gt;&lt;p&gt;The left pane for filtering show the filters to filter the children tables and Latest/All Results&lt;/p&gt;&lt;p&gt;By Default, expand associate info should be enabled. The user can however collapse all.&lt;/p&gt;&lt;p&gt;By Default Latest results should be enabled. The user can however choose to show all results&amp;nbsp;&lt;/p&gt;&lt;p&gt;The Type filter should filter the children table that should be visible. By Default, all the children table from the configuration should be enabled. The user can however, choose to select only those tables that are required&lt;/p&gt;&lt;br&gt;&lt;p&gt;Any changes applied to this banner should be persisted. per user across session per security incident. There should be an ability to reset to default filters.&lt;/p&gt;&lt;br&gt;&lt;p&gt;There should be an ability to close the associated info view. When the user clicks Close View, only the parent table will be present.&amp;nbsp;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Below criteria will be decied after the initial spike. For Spike there is no restriction on the records per page. User can configure as supported by platform&lt;/p&gt;&lt;br&gt;&lt;p&gt;After Spike&lt;/p&gt;&lt;br&gt;&lt;p&gt;// Is there a possibility to dynamically change the lists per page? if yes when only the parent is shown, the default should be set to 10 per page (max) Users can change the page size to smaller number, if required.. When one or more record is selected, and the view associated info action is executed,&amp;nbsp; the page size should automatically change to number of selected records (max of 5).&amp;nbsp; All the children table max can have 5 records per page. User can configure any smaller number.&amp;nbsp; If dynamic changing is not possible. We can always default the page sizes to a fixed number that will be decided after spike&lt;/p&gt;&lt;br&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-66" y="418" width="550" height="1101" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzdf1plxLHDYl8dRvQ8k-6" value="Investigation Canvas Configuration - Default Records" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="678.9955267333985" y="103.00057250976562" width="311" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzdf1plxLHDYl8dRvQ8k-7" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;p&gt;The following default configuration records should be available:&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;1) Entry Point: Observables&lt;/p&gt;&#xa;&lt;p&gt;Parent Table: Observable&lt;/p&gt;&#xa;&lt;p&gt;Children Table: Threat Look Up Results, Sighting Search Results (new table), Observable Enrichment Results, Sandbox Submission Results, MISP Enrichment Results, Associated MISP Events, Microsoft Defender Indicators, Microsoft Defender for endpoint related machines, Crowdstrike Sighting Results, Tanium Sighting Sightings, PAN NGFW block entries table, Zscaler entries table, Checkpoint entries table (are&amp;nbsp; there any other tables?)&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;2)Entry Point: Configuration Items&lt;/p&gt;&#xa;&lt;p&gt;Parent Table: Configuration Items&lt;/p&gt;&#xa;&lt;p&gt;Children Table: Host Details, Running Services, Running Processes, Logged On Users, Network Statistics, Get File, Additional Actions on Endpoint, Tanium tables, Crowdstrike tables, McAfee EPO tables (any other table that is missing)&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;3) Entry Point: Users&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;Parent Table: Affected Users.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;Child Table: Child Security Incidents created for the user&lt;/p&gt;&#xa;&lt;p&gt;4) Entry Point: Associate Phish Emails&lt;/p&gt;&#xa;&lt;p&gt;Parent Table: Associated Phish Emails.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;No Children Table&lt;/p&gt;&#xa;&lt;p&gt;5) Entry Point: Email Search and Delete&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp;Parent: Email Search&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp;Child: Email Search Results History&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp;These configuration records should be shipped read only and set to active true. However, the configuration should take into consideration only the installed applications on the customer environment.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;These out of the box configuration records cannot be deleted.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;There should be an ability to copy these configuration records.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;Admins can delete any of the user created records or modify them. but cannot delete or modify the OOB shipped records. They can only be set to active true or false.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;Ignore the below:&lt;/p&gt;&#xa;&lt;p&gt;// This will be implemented after the initial version is stable. Grandchild: Email Search Result Entries (This will be an exception record that supports grandchild). If created as an exception, then users should not be able to make a copy of this record and create a similar structure with other tables.&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="678.9955267333985" y="163.00057250976562" width="550" height="1341" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzdf1plxLHDYl8dRvQ8k-9" value="Investigation Canvas Configuration" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="666.9999847412109" y="1524.001717529297" width="214" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzdf1plxLHDYl8dRvQ8k-10" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;p&gt;The investigation canvas configuration should take care of the following:&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt; There should be an ability to define the Entry Points This will be the available for selection from the drop down on the left side. There should be at least one Entry Point, otherwise the investigation canvas will not appear.&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt; There will be no nesting of entry points&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt; There should be an ability to define relationships within the entry point:&lt;/p&gt;&#xa;&lt;p&gt;- There should be an ability to define the Parent&lt;/p&gt;&#xa;&lt;p&gt;- There should be an ability to define the child&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt; There can be a max of only one level defined. Parent-&amp;gt; Child. No further levels supported.&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt; So when adding configuration, the validation should take care of limiting the level&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt; While adding the child table, the listing choice should be filtered to show only those tables that have a dependency on the parent. ie.,&amp;nbsp; the resultant tables of the actions which can be run on the parent table. For example, if we assume that only threat look up, observable enrichment are possible on the Observable table. Then only Threat look Up Results, Observable Enrichment results tables can be added as children table to the Observable parent table.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt; There can be any number of children added against a parent table. Max limit to be defined after spike&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt; There can be a parent table defined without any children&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;///// Ignore the below:&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt; There can be one more level of groups called sub groups. There can be any number of sub-groups.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt; If a sub-group is defined, then a parent can only defined under the sub-group and not at the main group&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt; If there are no sub-groups, and there is only group, then there should be a parent table defined&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt; At any level either the group or sub-group, there can max be only one parent.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;- There should be an ability to define the grandchild&lt;/p&gt;&#xa;&lt;p&gt;&amp;gt;&amp;nbsp; There can be a max of only two level of relationship that can be defined. ie., Parent-&amp;gt;Child-&amp;gt;Grandchild. Should be discussed.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;However, there can only be one grandchild added.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;//Ignore this &amp;gt; Is there any other dependency other than via actions?&amp;nbsp;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="658.9999847412109" y="1597.001717529297" width="550" height="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzdf1plxLHDYl8dRvQ8k-11" value="Parent Table Form from Investigation Canvas" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="1524" width="268" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzdf1plxLHDYl8dRvQ8k-12" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;p&gt;Can the form page views be different based on from where the form was accessed? For example can it be different, when it is accessed from the investigation canvas and when it is accessed from SIR Records page? -&amp;gt; No it will be the same form&lt;/p&gt;&#xa;&lt;p&gt;* The form pages of all parent tables (from the investigation canvas configuration), should have two sections on the first tab.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;* The first section of the tab will have the details of the opened record&lt;/p&gt;&#xa;&lt;p&gt;* The second section of the tab will have the associated children (only) information directly shown as forms. However only latest record will be shown for all the children table. The children table are from the configuration.&lt;/p&gt;&#xa;&lt;p&gt;* The top banner of the second section will enable filtering and expanding/collapsing.&lt;/p&gt;&#xa;&lt;p&gt;* There will be NO option to view all the results here.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;* By default the first child table will be present with the latest records (per vendor) expanded. The user will be able to choose to display other children tables by selecting the drop down.&lt;/p&gt;&#xa;&lt;p&gt;* Show only those children tables in the drop down that are defined as children in the configuration.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;* By default it will expand all enabled. However the user can choose to collapse all. This expand all/collapse all will be applicable only when a chosen table has more than one latest record.&lt;/p&gt;&#xa;&lt;p&gt;* The changes made to the top banner must be persisted per user across session per record. There should be an ability to reset the filters.&lt;/p&gt;&#xa;&lt;p&gt;The above criteria marked with * are applicable only to forms corresponding to the tables that are defined as parents (any table that has a child).&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;If possible there should be a toggle button to enable or disable. this two section view of these forms. By Default all of these forms will have the two view section enabled. Only Email Search&amp;nbsp; two view section should be disabled.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;Include all the form actions in the second half as is. If not possible, provide an option to open the form in a separate tab.&lt;/p&gt;&#xa;&lt;p&gt;There will be other tabs and right contextual pane available according to how the form was designed.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;If the record has further related lists, then all the default related lists should be grouped under a tab vertically. The tab name should be [record name][records]. For example, all the related lists of the observable record will be grouped vertically under the tab called Observable Records.&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;This tab will have all the information with all the data. If users would want to view a particular record from within any table, the navigation pattern will be similar to our SIR form. Open the form page in a separate tab. This applies at any level.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-54.004473266601565" y="1582.9984655761718" width="550" height="1217" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="F55Sx1uM0JtEDPsUKBEo" name="Page-2">
+    <mxGraphModel dx="2372" dy="1274" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="15" width="308" height="599" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-4" value="Observable" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#82b366;fillColor=#d5e8d4;rotation=90;direction=west;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="-118" y="-31" width="40" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-5" value="Affected Users" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#82b366;fillColor=#d5e8d4;rotation=90;direction=west;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="-118" y="31" width="40" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-6" value="Affected CI" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#82b366;fillColor=#d5e8d4;rotation=90;direction=west;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="-116" y="98" width="40" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-7" value="Other" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#666666;fontColor=#333333;fillColor=#f5f5f5;rotation=90;direction=west;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="-116" y="168" width="40" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#6c8ebf;fontColor=#1D3557;fillColor=#dae8fc;exitX=0.5;exitY=1;exitDx=0;exitDy=0;gradientColor=#7ea6e0;edgeStyle=orthogonalEdgeStyle;dashed=1;strokeWidth=2;" edge="1" parent="1" source="_umsxTKBsvj5YkDTTOHc-11" target="_umsxTKBsvj5YkDTTOHc-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-536" y="61" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-536" y="86" />
+              <mxPoint x="-348" y="86" />
+              <mxPoint x="-348" y="142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-11" value="&lt;h1&gt;sn_entry_table&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;Need to Store list of options to render in this panel, Controls visibility of entry&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="-631" y="-50" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-12" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="89" y="15" width="770" height="665" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="131" y="61" width="670" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-22">
+          <mxGeometry width="670" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-15" value="Observable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1D3557;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-22">
+          <mxGeometry x="28" y="19" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="_umsxTKBsvj5YkDTTOHc-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="53.5" y="79" as="sourcePoint" />
+            <mxPoint x="632.5" y="79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="_umsxTKBsvj5YkDTTOHc-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="53.5" y="116" as="sourcePoint" />
+            <mxPoint x="632.5" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="_umsxTKBsvj5YkDTTOHc-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="53.5" y="152" as="sourcePoint" />
+            <mxPoint x="632.5" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="201" y="285" width="609" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-23">
+          <mxGeometry width="604" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-25" value="Threat lookup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1D3557;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-23">
+          <mxGeometry x="25.24" y="10.69" width="88.76" height="16.88" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="_umsxTKBsvj5YkDTTOHc-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48.22985074626865" y="44.4375" as="sourcePoint" />
+            <mxPoint x="570.1940298507462" y="44.4375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="_umsxTKBsvj5YkDTTOHc-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48.22985074626865" y="65.25" as="sourcePoint" />
+            <mxPoint x="570.1940298507462" y="65.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="_umsxTKBsvj5YkDTTOHc-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48.22985074626865" y="85.5" as="sourcePoint" />
+            <mxPoint x="570.1940298507462" y="85.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0e_hIcads-OPWftT7TJ-1" value="How custom table UI action will come here?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontColor=#FF6666;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-23">
+          <mxGeometry x="163" y="8" width="425" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="411" width="604" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-30">
+          <mxGeometry width="604" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-32" value="Sighting Search" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1D3557;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-30">
+          <mxGeometry x="25.24" y="10.69" width="88.76" height="16.88" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="_umsxTKBsvj5YkDTTOHc-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48.22985074626865" y="44.4375" as="sourcePoint" />
+            <mxPoint x="570.1940298507462" y="44.4375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="_umsxTKBsvj5YkDTTOHc-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48.22985074626865" y="65.25" as="sourcePoint" />
+            <mxPoint x="570.1940298507462" y="65.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="_umsxTKBsvj5YkDTTOHc-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48.22985074626865" y="85.5" as="sourcePoint" />
+            <mxPoint x="570.1940298507462" y="85.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="203" y="541" width="604" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-37">
+          <mxGeometry width="604" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-39" value="Observable Entrichment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1D3557;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-37">
+          <mxGeometry x="25.24" y="10.69" width="88.76" height="16.88" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-40" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="_umsxTKBsvj5YkDTTOHc-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48.22985074626865" y="44.4375" as="sourcePoint" />
+            <mxPoint x="570.1940298507462" y="44.4375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-41" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="_umsxTKBsvj5YkDTTOHc-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48.22985074626865" y="65.25" as="sourcePoint" />
+            <mxPoint x="570.1940298507462" y="65.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-42" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="_umsxTKBsvj5YkDTTOHc-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48.22985074626865" y="85.5" as="sourcePoint" />
+            <mxPoint x="570.1940298507462" y="85.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.101;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#6c8ebf;fontColor=#1D3557;fillColor=#dae8fc;exitX=0.5;exitY=1;exitDx=0;exitDy=0;gradientColor=#7ea6e0;" edge="1" parent="1" source="_umsxTKBsvj5YkDTTOHc-44" target="_umsxTKBsvj5YkDTTOHc-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139" y="822" as="sourcePoint" />
+            <mxPoint x="482.2359999999999" y="903" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;dashed=1;strokeWidth=2;" edge="1" parent="1" source="_umsxTKBsvj5YkDTTOHc-44" target="_umsxTKBsvj5YkDTTOHc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-44" value="&lt;h1&gt;sn_entry_subtable&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;Need to Store list of options to render in this panel&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="44" y="711" width="270" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#457B9D;strokeWidth=2;fontColor=#1D3557;fillColor=#A8DADC;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_umsxTKBsvj5YkDTTOHc-46" target="_umsxTKBsvj5YkDTTOHc-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-46" value="&lt;h1&gt;sn_entry_subtable_filters&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;Contains information about UI action which can filter or show latest data&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="421" y="812" width="314" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-48" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="900" y="17" width="1099" height="656" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-48">
+          <mxGeometry width="1099" height="656" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-55" value="Observable form" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-48">
+          <mxGeometry x="35" y="42" width="461" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-59" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-48">
+          <mxGeometry x="527" y="42" width="543" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-61" value="Filters" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-48">
+          <mxGeometry x="565" y="86" width="476" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-62" value="subtable_record_1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-48">
+          <mxGeometry x="565" y="174" width="476" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-69" value="subtable_record_2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-48">
+          <mxGeometry x="567" y="286" width="476" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-70" value="subtable_2_record" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-48">
+          <mxGeometry x="567" y="397" width="476" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-71" value="subtable_3_record" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="_umsxTKBsvj5YkDTTOHc-48">
+          <mxGeometry x="569" y="512" width="476" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="2nohnmyVwUR9er8nxLpZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#457B9D;strokeWidth=2;fontSize=14;fontColor=#67AB9F;fillColor=#A8DADC;entryX=0.73;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_umsxTKBsvj5YkDTTOHc-46" target="_umsxTKBsvj5YkDTTOHc-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1821" y="632" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_umsxTKBsvj5YkDTTOHc-73" value="How to get latest data ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="591" y="760" width="239" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="FSHY9HX6AaN8RNcuhsdP-1" value="&lt;h1&gt;&lt;font style=&quot;font-size: 37px;&quot;&gt;Constraints&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1. Configuration is system admin driven&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2. Application dependent. Only show list if the related list is available&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;3. Should allows us to control what is shown and how data is presented&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=21;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-559" y="-336" width="513" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="QQZN0TJV0oHkwCqoyOB9-1" value="Restrict max record per entry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="-11" y="835" width="289" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="2nohnmyVwUR9er8nxLpZ-4" value="1. Show latest record per integration per subtable&lt;br style=&quot;font-size: 16px;&quot;&gt;2. Show latest 5&lt;br style=&quot;font-size: 16px;&quot;&gt;3. Show latest 10" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="165" y="946" width="368" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2nohnmyVwUR9er8nxLpZ-5" value="&lt;h1&gt;sn_entry_subtable_filters_configuration&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;Contains information about UI action which can filter or show latest data&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="583" y="952" width="476" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="2nohnmyVwUR9er8nxLpZ-6" value="We need to create action for out of the box tables" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeColor=#36393d;fontSize=16;fillColor=#ffff88;" vertex="1" parent="1">
+          <mxGeometry x="698" y="222" width="207" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2nohnmyVwUR9er8nxLpZ-7" value="Do we really need multi section here?" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeColor=#36393d;fontSize=16;fillColor=#ffff88;" vertex="1" parent="1">
+          <mxGeometry x="295" y="-4" width="207" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
