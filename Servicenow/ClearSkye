@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T03:03:53.220Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Zp75GnrSR4wVHPnWfaPA" version="20.8.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-17T03:06:01.326Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="zCDX1h2_ef_UXKLg06St" version="20.8.18" type="github" pages="7">
   <diagram name="Page-1" id="QCn_vaCiYXycmjnx3AdX">
     <mxGraphModel dx="2447" dy="876" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="0">
       <root>
@@ -36,45 +36,6 @@
         </mxCell>
         <mxCell id="HtpuC6YLW1eSD4PWGraq-11" value="Account&lt;br&gt;(x_cls_clear_skye_i_account)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-413" y="643" width="211" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HtpuC6YLW1eSD4PWGraq-13" target="HtpuC6YLW1eSD4PWGraq-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HtpuC6YLW1eSD4PWGraq-13" target="HtpuC6YLW1eSD4PWGraq-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HtpuC6YLW1eSD4PWGraq-13" target="HtpuC6YLW1eSD4PWGraq-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HtpuC6YLW1eSD4PWGraq-13" target="HtpuC6YLW1eSD4PWGraq-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.648;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HtpuC6YLW1eSD4PWGraq-13" target="HtpuC6YLW1eSD4PWGraq-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HtpuC6YLW1eSD4PWGraq-13" target="HtpuC6YLW1eSD4PWGraq-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-13" value="Import Set Row" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="487" y="85" width="284" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-14" value="ILM - Group Membership Import&lt;br&gt;(x_cls_clear_skye_i_ilm_group_membership_)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="933" y="88.5" width="303" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-16" value="ILM - Entitlement Import v2&lt;br&gt;(x_cls_clear_skye_i_ilm___entitlement_imp)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="933" y="204" width="303" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-17" value="ILM - OneLogin Account Import&lt;br&gt;(x_cls_clear_skye_i_ilm___onelogin_accoun)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="933" y="306" width="303" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-18" value="ILM - OneLogin Group Membership Import&lt;br&gt;(x_cls_clear_skye_i_ilm___onelogin_group_)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="933" y="412" width="303" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-19" value="ILM - OneLogin Roles&lt;br&gt;(x_cls_clear_skye_i_ilm___onelogin_roles)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="933" y="517" width="303" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HtpuC6YLW1eSD4PWGraq-20" value="ILM Import Staging&lt;br&gt;(x_cls_clear_skye_i_v3_import_staging)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="933" y="617" width="303" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HtpuC6YLW1eSD4PWGraq-29" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HtpuC6YLW1eSD4PWGraq-27" target="HtpuC6YLW1eSD4PWGraq-28">
           <mxGeometry relative="1" as="geometry" />
@@ -144,9 +105,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="W8a3zMRsmJ3s8c2V-UWf-1" value="Access Policies&lt;br&gt;x_cls_clear_skye_i_access_policies&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-304" y="166" width="284" height="67" as="geometry" />
-        </mxCell>
         <mxCell id="semIu9TFMDTnMmvSo9PO-1" value="Account Configuration&lt;br&gt;x_cls_clear_skye_i_account_settings&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-304" y="257" width="284" height="67" as="geometry" />
         </mxCell>
@@ -171,9 +129,6 @@
         <mxCell id="semIu9TFMDTnMmvSo9PO-7" value="ILM Configuration&lt;br&gt;x_cls_clear_skye_i_configuration&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-313" y="-452" width="284" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="semIu9TFMDTnMmvSo9PO-9" value="Correlation Entry&lt;br&gt;x_cls_clear_skye_i_correlation_entry&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="80" y="166" width="284" height="67" as="geometry" />
-        </mxCell>
         <mxCell id="semIu9TFMDTnMmvSo9PO-10" value="Capability Mapping&lt;br&gt;x_cls_clear_skye_i_custom_map&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="80" y="259" width="284" height="67" as="geometry" />
         </mxCell>
@@ -194,9 +149,6 @@
         </mxCell>
         <mxCell id="semIu9TFMDTnMmvSo9PO-16" value="Alert Registry&lt;br&gt;x_cls_clear_skye_i_ilm_alert_registry&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="80" y="824" width="284" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="semIu9TFMDTnMmvSo9PO-17" value="ILM Properties&lt;br&gt;x_cls_clear_skye_i_ilm_properties&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="397" y="166" width="284" height="67" as="geometry" />
         </mxCell>
         <mxCell id="semIu9TFMDTnMmvSo9PO-18" value="Label Overrides&lt;br&gt;x_cls_clear_skye_i_label_overrides&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="397" y="258" width="284" height="67" as="geometry" />
@@ -323,7 +275,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="idsgEwHuLW3gSDBc1f9f" name="Page-4">
+  <diagram id="idsgEwHuLW3gSDBc1f9f" name="Identity Life Cycle">
     <mxGraphModel dx="2447" dy="1676" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -342,6 +294,9 @@
         </mxCell>
         <mxCell id="mpeIO-mcTd6RzlrV7Jvm-5" value="ILM Task Management [RETIRED]&lt;br&gt;x_cls_clear_skye_i_task_aggregator_config&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="192" y="-600" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="lsyjjnda2UajPh_MD0Qq-1" value="ILM Properties&lt;br&gt;x_cls_clear_skye_i_ilm_properties&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="229" y="-450" width="284" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -362,6 +317,12 @@
         </mxCell>
         <mxCell id="wGvDespvQNhnPdg9Km5f-4" value="Policy Categories&lt;br&gt;x_cls_clear_skye_i_policy_categories&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="128" y="162" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCIX5Ga8irWrddlzPttk-1" value="Access Policies&lt;br&gt;x_cls_clear_skye_i_access_policies&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="632" y="133" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="wB5J-o_1paNL3heI3jDv-1" value="Correlation Entry&lt;br&gt;x_cls_clear_skye_i_correlation_entry&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="456" y="-151" width="284" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -385,6 +346,53 @@
         </mxCell>
         <mxCell id="APLyKkrtVkZFz7XoRoAq-5" value="Naming Elements&lt;br&gt;x_cls_clear_skye_i_naming_elements&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-135" y="294" width="284" height="67" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eBdRjkPHynmnsK4GzgVM" name="Import Tables">
+    <mxGraphModel dx="2047" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-1" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-1zOHJ24c_7RU5QxDq66-7" target="-1zOHJ24c_7RU5QxDq66-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-1zOHJ24c_7RU5QxDq66-7" target="-1zOHJ24c_7RU5QxDq66-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-1zOHJ24c_7RU5QxDq66-7" target="-1zOHJ24c_7RU5QxDq66-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-1zOHJ24c_7RU5QxDq66-7" target="-1zOHJ24c_7RU5QxDq66-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.648;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-1zOHJ24c_7RU5QxDq66-7" target="-1zOHJ24c_7RU5QxDq66-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-1zOHJ24c_7RU5QxDq66-7" target="-1zOHJ24c_7RU5QxDq66-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-7" value="Import Set Row" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-141" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-8" value="ILM - Group Membership Import&lt;br&gt;(x_cls_clear_skye_i_ilm_group_membership_)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="66" y="-137.5" width="303" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-9" value="ILM - Entitlement Import v2&lt;br&gt;(x_cls_clear_skye_i_ilm___entitlement_imp)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="66" y="-22" width="303" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-10" value="ILM - OneLogin Account Import&lt;br&gt;(x_cls_clear_skye_i_ilm___onelogin_accoun)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="66" y="80" width="303" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-11" value="ILM - OneLogin Group Membership Import&lt;br&gt;(x_cls_clear_skye_i_ilm___onelogin_group_)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="66" y="186" width="303" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-12" value="ILM - OneLogin Roles&lt;br&gt;(x_cls_clear_skye_i_ilm___onelogin_roles)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="66" y="291" width="303" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1zOHJ24c_7RU5QxDq66-13" value="ILM Import Staging&lt;br&gt;(x_cls_clear_skye_i_v3_import_staging)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="66" y="391" width="303" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
