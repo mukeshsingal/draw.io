@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T02:45:17.700Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ymdzNqkeretXnG7ac-jT" version="20.8.18" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-17T03:00:10.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-crr73GfSWvECjTCBD7n" version="20.8.18" type="github" pages="3">
   <diagram name="Page-1" id="QCn_vaCiYXycmjnx3AdX">
     <mxGraphModel dx="2305" dy="1071" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="0">
       <root>
@@ -140,7 +140,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LumQEDg1vUTVx9W2ttPu" name="Application Files">
-    <mxGraphModel dx="2047" dy="876" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="0">
+    <mxGraphModel dx="2047" dy="1676" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,8 +162,14 @@
         <mxCell id="semIu9TFMDTnMmvSo9PO-6" value="Capability&lt;br&gt;x_cls_clear_skye_i_capabilities&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-304" y="596" width="284" height="67" as="geometry" />
         </mxCell>
+        <mxCell id="semIu9TFMDTnMmvSo9PO-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="semIu9TFMDTnMmvSo9PO-7" target="semIu9TFMDTnMmvSo9PO-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="semIu9TFMDTnMmvSo9PO-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="semIu9TFMDTnMmvSo9PO-7" target="semIu9TFMDTnMmvSo9PO-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="semIu9TFMDTnMmvSo9PO-7" value="ILM Configuration&lt;br&gt;x_cls_clear_skye_i_configuration&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-304" y="680" width="284" height="67" as="geometry" />
+          <mxGeometry x="-313" y="-452" width="284" height="67" as="geometry" />
         </mxCell>
         <mxCell id="semIu9TFMDTnMmvSo9PO-8" value="Correlation Policy&lt;br&gt;x_cls_clear_skye_i_correlation&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1173" y="163" width="284" height="67" as="geometry" />
@@ -272,6 +278,89 @@
         </mxCell>
         <mxCell id="semIu9TFMDTnMmvSo9PO-44" value="Super Slush Definition&lt;br&gt;x_cls_clear_skye_i_super_slush_definition&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1079" y="1197" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="semIu9TFMDTnMmvSo9PO-45" value="Import Configuration&lt;br&gt;x_cls_clear_skye_i_import_configuration&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-473" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="semIu9TFMDTnMmvSo9PO-46" value="Review Template&lt;br&gt;x_cls_clear_skye_i_review_configuration&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-347" width="284" height="67" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TBE71upvVHWJTDz-oRUx" name="Page-3">
+    <mxGraphModel dx="2447" dy="1676" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0t06_6AJE664HqrberpE-1" value="Correlation Policy&lt;br&gt;x_cls_clear_skye_i_correlation&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-446" y="-376" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-2" value="Data Translation&lt;br&gt;x_cls_clear_skye_i_data_translation&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-446" y="-271" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-3" value="Alerts&lt;br&gt;x_cls_clear_skye_i_ilm_alert&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-446" y="-155" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-4" value="Automated Task&lt;br&gt;x_cls_clear_skye_i_ilm_automation&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-446" y="-52" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-5" value="ILM Logs&lt;br&gt;x_cls_clear_skye_i_ilm_logs&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="51" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-6" value="ILM Object&lt;br&gt;x_cls_clear_skye_i_ilm_object&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="-376" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-7" value="Import Distribution&lt;br&gt;x_cls_clear_skye_i_import_distribution&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="-266" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-8" value="Applied Policies&lt;br&gt;x_cls_clear_skye_i_m2m_access_polic_ilm_...&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="-154" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-9" value="Entitlement Groups&lt;br&gt;x_cls_clear_skye_i_m2m_accounts_roles&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="-58" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-10" value="Entitlements belonging to Group&lt;br&gt;x_cls_clear_skye_i_m2m_entitlements_roles&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="31" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-11" value="ILM Membership&lt;br&gt;x_cls_clear_skye_i_m2m_groups_ilm_objects&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="112" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-12" value="Clear Skye I M2m Groups Roles&lt;br&gt;x_cls_clear_skye_i_m2m_groups_roles&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="192" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-13" value="Review Objects&lt;br&gt;x_cls_clear_skye_i_m2m_ilm_reviews_ilm_o...&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="274" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-14" value="Clear Skye I M2m Menu Items Roles&lt;br&gt;x_cls_clear_skye_i_m2m_menu_items_roles&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="274" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-15" value="Object Relationships [EARLYACCESS]&lt;br&gt;x_cls_clear_skye_i_obj_rel&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="180" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-16" value="Manual Activities&lt;br&gt;x_cls_clear_skye_i_operation_task_relati...&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="100" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-17" value="ILM Queue&lt;br&gt;x_cls_clear_skye_i_queue&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="14" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-18" value="ILM Queue&lt;br&gt;x_cls_clear_skye_i_queue&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="-124" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-19" value="Role v1 [RETIRED]&lt;br&gt;x_cls_clear_skye_i_role&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="-237" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-20" value="Script Snippet&lt;br&gt;x_cls_clear_skye_i_script_snippet&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="-315" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-21" value="IGA Scheduled Script Execution&lt;br&gt;x_cls_clear_skye_i_sysauto_script&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="-406" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-22" value="IGA Tags&lt;br&gt;x_cls_clear_skye_i_tag&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="-486" width="284" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0t06_6AJE664HqrberpE-23" value="ILM Task Management [RETIRED]&lt;br&gt;x_cls_clear_skye_i_task_aggregator_config&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="-600" width="284" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
