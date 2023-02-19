@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T03:53:27.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PHY72hM4l4wf0BLzpErn" version="20.8.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-19T02:05:01.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HB8mpiwXlXJyPJpIN1BE" version="20.8.18" type="github" pages="6">
   <diagram name="Core" id="QCn_vaCiYXycmjnx3AdX">
-    <mxGraphModel dx="3647" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="1">
+    <mxGraphModel dx="3647" dy="1198" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -257,11 +257,14 @@
         <mxCell id="LuC08zdravhtvT_58xB2-2" value="Entitlements belonging to Group&lt;br&gt;x_cls_clear_skye_i_m2m_entitlements_roles&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-78" y="755" width="284" height="67" as="geometry" />
         </mxCell>
+        <mxCell id="w0sUGTDebmCZxWPfG0qf-1" value="1. Expose the data modal to other partners&lt;br&gt;2. Exposing to partners to build connectors&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="573.5" y="-151" width="249" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="LumQEDg1vUTVx9W2ttPu" name="Relationships &amp; Configurations">
-    <mxGraphModel dx="2447" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="1">
+    <mxGraphModel dx="2447" dy="1198" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -331,7 +334,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="idsgEwHuLW3gSDBc1f9f" name="Identity Life Cycle">
-    <mxGraphModel dx="1647" dy="876" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="1">
+    <mxGraphModel dx="1647" dy="798" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -372,7 +375,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zG0XZCLRMjz8wutBtnFA" name="Policy &amp; Automaton">
-    <mxGraphModel dx="2047" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="1">
+    <mxGraphModel dx="2047" dy="1198" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -434,33 +437,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dSTJYrQU1Lr-RJPB7Ybj" name="Menu">
-    <mxGraphModel dx="2047" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="1">
+    <mxGraphModel dx="2447" dy="1198" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="APLyKkrtVkZFz7XoRoAq-1" value="Menu&lt;br&gt;x_cls_clear_skye_i_menu&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="-81" width="284" height="67" as="geometry" />
+          <mxGeometry x="-433" y="-234" width="284" height="67" as="geometry" />
         </mxCell>
         <mxCell id="APLyKkrtVkZFz7XoRoAq-2" value="Menu Item&lt;br&gt;x_cls_clear_skye_i_menu_item&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="20" width="284" height="67" as="geometry" />
+          <mxGeometry x="-433" y="-133" width="284" height="67" as="geometry" />
         </mxCell>
         <mxCell id="APLyKkrtVkZFz7XoRoAq-3" value="Naming Attributes&lt;br&gt;x_cls_clear_skye_i_naming_attributes&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="122" width="284" height="67" as="geometry" />
+          <mxGeometry x="-433" y="-31" width="284" height="67" as="geometry" />
         </mxCell>
         <mxCell id="APLyKkrtVkZFz7XoRoAq-4" value="Naming Convention&lt;br&gt;x_cls_clear_skye_i_naming_convention&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="205" width="284" height="67" as="geometry" />
+          <mxGeometry x="-433" y="52" width="284" height="67" as="geometry" />
         </mxCell>
         <mxCell id="APLyKkrtVkZFz7XoRoAq-5" value="Naming Elements&lt;br&gt;x_cls_clear_skye_i_naming_elements&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="294" width="284" height="67" as="geometry" />
+          <mxGeometry x="-433" y="141" width="284" height="67" as="geometry" />
         </mxCell>
         <mxCell id="9vridWDKNfZfP7DgOuBS-1" value="Label Overrides&lt;br&gt;x_cls_clear_skye_i_label_overrides&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="197" y="-73" width="284" height="67" as="geometry" />
+          <mxGeometry x="-101" y="-226" width="284" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="eBdRjkPHynmnsK4GzgVM" name="Import Tables">
-    <mxGraphModel dx="2047" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="1">
+    <mxGraphModel dx="2047" dy="1198" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -486,7 +489,7 @@
           <mxGeometry x="-380" y="-141" width="284" height="67" as="geometry" />
         </mxCell>
         <mxCell id="-1zOHJ24c_7RU5QxDq66-8" value="ILM - Group Membership Import&lt;br&gt;(x_cls_clear_skye_i_ilm_group_membership_)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="66" y="-137.5" width="303" height="60" as="geometry" />
+          <mxGeometry x="72" y="-141" width="303" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-1zOHJ24c_7RU5QxDq66-9" value="ILM - Entitlement Import v2&lt;br&gt;(x_cls_clear_skye_i_ilm___entitlement_imp)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;glass=0;shadow=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="66" y="-22" width="303" height="60" as="geometry" />
