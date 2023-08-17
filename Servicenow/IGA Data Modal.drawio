@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T11:58:54.582Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="GDU1bkJyAYnPqZffmPuI" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T12:14:37.443Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="iztvjlSKAMi9oD7YWo0o" version="21.6.6" type="github">
   <diagram name="Page-1" id="3WmewH49MC0YbbfD4fiM">
-    <mxGraphModel dx="4936" dy="2910" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3743" dy="2369" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -663,6 +663,9 @@
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-364" value="Users are assigned roles with varying degrees of entitlements. &lt;br&gt;These entitlements allow users access to certain features, functions, and actions. &lt;br&gt;Once roles are assigned, users will only have access to the entitlements determined by their assigned role(s)." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-706" y="281" width="599" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pM7y19zhNN6QvLyryo5s-365" value="which role user has for which application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="594" width="233" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
