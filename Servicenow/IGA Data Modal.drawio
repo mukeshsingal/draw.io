@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T12:14:37.443Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="iztvjlSKAMi9oD7YWo0o" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T14:25:54.311Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="Qoq1ADHuD256t3T-meo7" version="21.6.6" type="github">
   <diagram name="Page-1" id="3WmewH49MC0YbbfD4fiM">
-    <mxGraphModel dx="3743" dy="2369" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4767" dy="2440" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -308,16 +308,8 @@
         <mxCell id="pM7y19zhNN6QvLyryo5s-156" value="Identity" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="pM7y19zhNN6QvLyryo5s-153">
           <mxGeometry y="84" width="314" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pM7y19zhNN6QvLyryo5s-206" value="Account Type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="pM7y19zhNN6QvLyryo5s-153">
+        <mxCell id="pM7y19zhNN6QvLyryo5s-206" value="Environment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="pM7y19zhNN6QvLyryo5s-153">
           <mxGeometry y="114" width="314" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pM7y19zhNN6QvLyryo5s-158" value="Account Type (Application)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;rounded=1;labelBackgroundColor=none;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="546" y="654" width="314" height="54" as="geometry">
-            <mxRectangle x="-1690" y="-295" width="122" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pM7y19zhNN6QvLyryo5s-159" value="name (Standard, Premium)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="pM7y19zhNN6QvLyryo5s-158">
-          <mxGeometry y="24" width="314" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-163" value="Groups" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;rounded=1;labelBackgroundColor=none;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="1">
           <mxGeometry x="-1321" y="311" width="314" height="144" as="geometry">
@@ -643,8 +635,8 @@
         <mxCell id="pM7y19zhNN6QvLyryo5s-357" value="1. User can review their own access&lt;br&gt;2. manager can review team access&amp;nbsp;&lt;br&gt;3. User application they are managing" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="-268" y="-1100" width="220" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="pM7y19zhNN6QvLyryo5s-358" value="1. How the group plays the role ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="-1763" y="311" width="429" height="46" as="geometry" />
+        <mxCell id="pM7y19zhNN6QvLyryo5s-358" value="1. How the group will be used ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF261F;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="-1645" y="314" width="311" height="37" as="geometry" />
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-359" value="Alert for review&lt;br&gt;Escalate to manager" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="273" y="-1069" width="128" height="41" as="geometry" />
@@ -658,14 +650,28 @@
         <mxCell id="pM7y19zhNN6QvLyryo5s-362" value="Cam review be done on groups ?&lt;br&gt;or roles ?" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="-289" y="-1020" width="195" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="pM7y19zhNN6QvLyryo5s-363" value="Environment" style="whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="557" y="866" width="303" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-364" value="Users are assigned roles with varying degrees of entitlements. &lt;br&gt;These entitlements allow users access to certain features, functions, and actions. &lt;br&gt;Once roles are assigned, users will only have access to the entitlements determined by their assigned role(s)." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-706" y="281" width="599" height="55" as="geometry" />
+          <mxGeometry x="292" y="165.5" width="599" height="55" as="geometry" />
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-365" value="which role user has for which application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="-60" y="594" width="233" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pM7y19zhNN6QvLyryo5s-366" value="Servicenow&lt;br&gt;Okta&lt;br&gt;AD" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="595" y="573" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pM7y19zhNN6QvLyryo5s-367" value="Environment" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;rounded=1;labelBackgroundColor=none;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="604" y="654" width="314" height="54" as="geometry">
+            <mxRectangle x="-1690" y="-295" width="122" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pM7y19zhNN6QvLyryo5s-368" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="pM7y19zhNN6QvLyryo5s-367">
+          <mxGeometry y="24" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pM7y19zhNN6QvLyryo5s-372" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="1" source="pM7y19zhNN6QvLyryo5s-206" target="pM7y19zhNN6QvLyryo5s-368">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pM7y19zhNN6QvLyryo5s-373" value="Policy Voilation" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=0;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-1996" y="208" width="284" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
