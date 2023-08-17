@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T14:25:54.311Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="Qoq1ADHuD256t3T-meo7" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T14:26:19.212Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="4Y5LRJTBcRp-cfHt4gUk" version="21.6.6" type="github">
   <diagram name="Page-1" id="3WmewH49MC0YbbfD4fiM">
     <mxGraphModel dx="4767" dy="2440" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -398,9 +398,6 @@
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-196" value="name (Employee, Vendor, Partner, etc)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="pM7y19zhNN6QvLyryo5s-195">
           <mxGeometry y="24" width="314" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pM7y19zhNN6QvLyryo5s-208" value="New Employee&lt;br&gt;New Account&lt;br&gt;Access Request&lt;br&gt;Role management&lt;br&gt;Transfer Employee&amp;nbsp;&lt;br&gt;Off Boarding" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="-2396" y="-633" width="129" height="98" as="geometry" />
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-217" value="Approvers (user m2m Request, stage)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;rounded=1;labelBackgroundColor=none;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="1">
           <mxGeometry x="-277" y="-256" width="314" height="180" as="geometry" />
