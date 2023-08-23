@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T02:42:41.414Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="5ahVJ9wr05GrcCwFJEgI" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-23T03:00:40.604Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="8VmEY0n4COgclKtoF_u8" version="21.6.8" type="github">
   <diagram name="Page-1" id="3WmewH49MC0YbbfD4fiM">
-    <mxGraphModel dx="4404" dy="2364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4789" dy="2364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
           <mxGeometry x="-169" y="1163" width="276" height="67" as="geometry" />
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-79" value="Policy Voilation" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=0;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" parent="1" vertex="1">
-          <mxGeometry x="-1996" y="-107" width="284" height="67" as="geometry" />
+          <mxGeometry x="-2182" y="91" width="284" height="67" as="geometry" />
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontColor=default;fillColor=#A8DADC;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" parent="1" source="pM7y19zhNN6QvLyryo5s-89" target="pM7y19zhNN6QvLyryo5s-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -466,7 +466,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-271" value="Access Policy" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;rounded=1;labelBackgroundColor=none;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" parent="1" vertex="1">
-          <mxGeometry x="-1677" y="-113" width="314" height="174" as="geometry">
+          <mxGeometry x="-1898" y="-133" width="314" height="174" as="geometry">
             <mxRectangle x="-1690" y="-295" width="122" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -645,7 +645,7 @@
           <mxGeometry x="-289" y="-1020" width="195" height="41" as="geometry" />
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-364" value="Users are assigned roles with varying degrees of entitlements. &lt;br&gt;These entitlements allow users access to certain features, functions, and actions. &lt;br&gt;Once roles are assigned, users will only have access to the entitlements determined by their assigned role(s)." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="292" y="165.5" width="599" height="55" as="geometry" />
+          <mxGeometry x="-531" y="-53.5" width="599" height="55" as="geometry" />
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-365" value="Group of entitlements for some applications" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="-533" y="35" width="249" height="26" as="geometry" />
@@ -665,10 +665,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-373" value="Policy Voilation" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;glass=0;shadow=0;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" parent="1" vertex="1">
-          <mxGeometry x="-1996" y="208" width="284" height="67" as="geometry" />
+          <mxGeometry x="-2167" y="295" width="284" height="67" as="geometry" />
         </mxCell>
         <mxCell id="F6h_VtpJp3bki8TqlEyk-2" value="Store IGA application roles are still will be using platform role table&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-533" y="7" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F6h_VtpJp3bki8TqlEyk-3" value="SOD Policies" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;rounded=1;labelBackgroundColor=none;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-2238" y="-133" width="314" height="174" as="geometry">
+            <mxRectangle x="-1690" y="-295" width="122" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6h_VtpJp3bki8TqlEyk-4" value="Policy ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="F6h_VtpJp3bki8TqlEyk-3">
+          <mxGeometry y="24" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6h_VtpJp3bki8TqlEyk-5" value="Policy Name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="F6h_VtpJp3bki8TqlEyk-3">
+          <mxGeometry y="54" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6h_VtpJp3bki8TqlEyk-6" value="Description" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="F6h_VtpJp3bki8TqlEyk-3">
+          <mxGeometry y="84" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6h_VtpJp3bki8TqlEyk-7" value="Allow Permissions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="F6h_VtpJp3bki8TqlEyk-3">
+          <mxGeometry y="114" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6h_VtpJp3bki8TqlEyk-8" value="Resources (Application&amp;nbsp; etc)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="F6h_VtpJp3bki8TqlEyk-3">
+          <mxGeometry y="144" width="314" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
