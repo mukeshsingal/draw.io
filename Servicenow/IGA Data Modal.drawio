@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-27T16:39:50.540Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="fzYZwElcZpPy7_9A5XiW" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-27T23:49:42.513Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="KKOitNIVJ-OPXqqudhb6" version="21.6.8" type="github" pages="3">
   <diagram name="Page-1" id="3WmewH49MC0YbbfD4fiM">
-    <mxGraphModel dx="4449" dy="2364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4124" dy="2353" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -690,11 +690,68 @@
         <mxCell id="F6h_VtpJp3bki8TqlEyk-8" value="Resources (Application&amp;nbsp; etc)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="F6h_VtpJp3bki8TqlEyk-3">
           <mxGeometry y="144" width="314" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="NfmKsVVNDs0xV6UuYSEn-2" value="Connection" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;rounded=1;labelBackgroundColor=none;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1319" y="237" width="314" height="54" as="geometry">
+            <mxRectangle x="-1690" y="-295" width="122" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfmKsVVNDs0xV6UuYSEn-3" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="NfmKsVVNDs0xV6UuYSEn-2">
+          <mxGeometry y="24" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NfmKsVVNDs0xV6UuYSEn-4" value="Connector" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;rounded=1;labelBackgroundColor=none;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1839" y="237" width="314" height="54" as="geometry">
+            <mxRectangle x="-1690" y="-295" width="122" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfmKsVVNDs0xV6UuYSEn-5" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="NfmKsVVNDs0xV6UuYSEn-4">
+          <mxGeometry y="24" width="314" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="WI6wYqexUnPljnAlIRLC" name="Workflow">
-    <mxGraphModel dx="1127" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="WI6wYqexUnPljnAlIRLC" name="Workflows">
+    <mxGraphModel dx="1300" dy="1414" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_ub0e5KAYKR8fE8CNeq4-1" value="1. Approval Workflows&lt;br&gt;2. Removal Workflows&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="-589" width="137" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="_ub0e5KAYKR8fE8CNeq4-2" value="Created Integration Hub Subflows" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="-513" width="422" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_ub0e5KAYKR8fE8CNeq4-3" value="Requires Manager approval" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="674" y="-446" width="293" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="_ub0e5KAYKR8fE8CNeq4-4" value="Steps" style="whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="674" y="-515" width="293" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="_ub0e5KAYKR8fE8CNeq4-5" value="Requires Sr. Manager approval" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="674" y="-394" width="293" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="_ub0e5KAYKR8fE8CNeq4-6" value="Requires Application Owner approval" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="674" y="-348" width="293" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="_ub0e5KAYKR8fE8CNeq4-7" value="Requires Specific Person approval" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="674" y="-304" width="293" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="_ub0e5KAYKR8fE8CNeq4-8" value="Accept Request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="674" y="-260" width="293" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="_ub0e5KAYKR8fE8CNeq4-9" value="Decline Request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="674" y="-218" width="293" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="_ub0e5KAYKR8fE8CNeq4-11" value="Request for AWS account is submitted&lt;br&gt;Status: Pending approval" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-162" y="-551" width="147" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="_ub0e5KAYKR8fE8CNeq4-12" value="Request for AWS account is submitted&lt;br&gt;Status: Pending approval" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="108" y="-733" width="147" height="95" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QLyJc2I4IRRkQ6KKiwE5" name="Access Request">
+    <mxGraphModel dx="900" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
