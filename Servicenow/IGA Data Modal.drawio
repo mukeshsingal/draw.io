@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-27T23:50:55.476Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="KGlTS9pKwNnvKeL7vf_n" version="21.6.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-27T23:54:24.414Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="NYTITJ3oypEkji6lZyHx" version="21.6.8" type="github" pages="6">
   <diagram name="Page-1" id="3WmewH49MC0YbbfD4fiM">
     <mxGraphModel dx="4036" dy="2316" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -751,10 +751,22 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QLyJc2I4IRRkQ6KKiwE5" name="Access Request">
-    <mxGraphModel dx="900" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1300" dy="1014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wxA6MnxzpXVW3eKbkGDo-1" value="Request Access" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-178" y="-263" width="208" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="wxA6MnxzpXVW3eKbkGDo-3" value="Request Enterprise Roles" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-178" y="-220" width="208" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="wxA6MnxzpXVW3eKbkGDo-4" value="Create New Role" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-178" y="-178" width="208" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="wxA6MnxzpXVW3eKbkGDo-5" value="Manage Role" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-178" y="-139" width="208" height="32" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -767,6 +779,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Yugrq5WEXvZ1JDW5PF-v" name="Access Reviews">
+    <mxGraphModel dx="900" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="R6wJlHPfoV71D0phP_HX" name="Savyint - High Level Flow">
     <mxGraphModel dx="900" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
