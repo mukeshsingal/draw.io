@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T03:01:32.270Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="kqu0I7FGKWkAExV6emvx" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-27T16:39:50.540Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="fzYZwElcZpPy7_9A5XiW" version="21.6.8" type="github" pages="2">
   <diagram name="Page-1" id="3WmewH49MC0YbbfD4fiM">
-    <mxGraphModel dx="4789" dy="2364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4449" dy="2364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -399,8 +399,8 @@
         <mxCell id="pM7y19zhNN6QvLyryo5s-196" value="name (Employee, Vendor, Partner, etc)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" parent="pM7y19zhNN6QvLyryo5s-195" vertex="1">
           <mxGeometry y="24" width="314" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pM7y19zhNN6QvLyryo5s-217" value="Approvers (user m2m Request, stage)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;rounded=1;labelBackgroundColor=none;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" parent="1" vertex="1">
-          <mxGeometry x="-277" y="-307" width="314" height="180" as="geometry" />
+        <mxCell id="pM7y19zhNN6QvLyryo5s-217" value="Email Template" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;rounded=1;labelBackgroundColor=none;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="483" y="-307" width="314" height="180" as="geometry" />
         </mxCell>
         <mxCell id="pM7y19zhNN6QvLyryo5s-218" value="Request" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" parent="pM7y19zhNN6QvLyryo5s-217" vertex="1">
           <mxGeometry y="30" width="314" height="30" as="geometry" />
@@ -690,6 +690,14 @@
         <mxCell id="F6h_VtpJp3bki8TqlEyk-8" value="Resources (Application&amp;nbsp; etc)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" vertex="1" parent="F6h_VtpJp3bki8TqlEyk-3">
           <mxGeometry y="144" width="314" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WI6wYqexUnPljnAlIRLC" name="Workflow">
+    <mxGraphModel dx="1127" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
