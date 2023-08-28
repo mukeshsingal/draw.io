@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T01:43:50.100Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="7p4a9AJKIWPm2wH7Dl62" version="21.6.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-08-28T01:47:50.579Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="LXIThfgP6n7GzDxrb2X8" version="21.6.8" type="github" pages="7">
   <diagram name="Page-1" id="3WmewH49MC0YbbfD4fiM">
     <mxGraphModel dx="4124" dy="2353" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -864,6 +864,36 @@
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-38" value="Close the request and sent notifications" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-229" y="132" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-39" value="Draft" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="-1099" width="212" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-40" value="Submitted" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="52" y="-1099" width="212" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-41" value="User is creating a request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-154" y="-1050" width="155" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-42" value="User submit the request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="54" y="-1048" width="145" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-43" value="Pending approval" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="253" y="-1099" width="212" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-44" value="Request need to be approved?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-1046" width="183" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-46" value="Approved" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="453" y="-1099" width="212" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-47" value="Provisioning" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="657" y="-1099" width="212" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-48" value="Rejected" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="453" y="-1049" width="212" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-49" value="Closed" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="865" y="-1099" width="212" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
