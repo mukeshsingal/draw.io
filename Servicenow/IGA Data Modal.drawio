@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T01:40:30.658Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="Mhpsl1PgW4hLIKlEX8EQ" version="21.6.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-08-28T01:43:50.100Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="7p4a9AJKIWPm2wH7Dl62" version="21.6.8" type="github" pages="7">
   <diagram name="Page-1" id="3WmewH49MC0YbbfD4fiM">
     <mxGraphModel dx="4124" dy="2353" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -755,20 +755,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wjdi9GcULxpn6jrX_I_P-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wjdi9GcULxpn6jrX_I_P-1" target="wjdi9GcULxpn6jrX_I_P-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="wjdi9GcULxpn6jrX_I_P-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wjdi9GcULxpn6jrX_I_P-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-174" y="-34" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wjdi9GcULxpn6jrX_I_P-1" value="Request record created in pending for approval" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-234" y="-150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wjdi9GcULxpn6jrX_I_P-2" value="Access Requested" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-234" y="-34" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-2" value="Single Stage approval" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="185" y="-894" width="135" height="26" as="geometry" />
+          <mxGeometry x="233" y="-845" width="135" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-3" value="Multi Stage approval" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="187" y="-868" width="127" height="26" as="geometry" />
+          <mxGeometry x="233" y="-819" width="127" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rtTkLqYB_5gCnOGBdNa0-4" target="rtTkLqYB_5gCnOGBdNa0-5">
           <mxGeometry relative="1" as="geometry" />
@@ -786,13 +785,13 @@
           <mxGeometry x="-226.5" y="-307" width="109" height="105" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-6" value="Can request manager approval ?&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="326" y="-897" width="193" height="26" as="geometry" />
+          <mxGeometry x="636" y="-711" width="193" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-7" value="Can request a group approval ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="326" y="-871" width="187" height="26" as="geometry" />
+          <mxGeometry x="636" y="-685" width="187" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-8" value="Can request a user approval ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="-847" width="179" height="26" as="geometry" />
+          <mxGeometry x="636" y="-661" width="179" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-9" value="Request Type - Stage(order) - Approval Type" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="149" y="-584" width="429" height="60" as="geometry" />
@@ -800,14 +799,14 @@
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-10" value="Mapping b/w Application and Approvers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="250.5" y="-751" width="228" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rtTkLqYB_5gCnOGBdNa0-11" value="Approval Type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="327" y="-937" width="95" height="26" as="geometry" />
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-11" value="Approval Type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="635" y="-751" width="100" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rtTkLqYB_5gCnOGBdNa0-12" value="Stage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-931" width="49" height="26" as="geometry" />
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-12" value="Stage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="232" y="-882" width="51" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-13" value="Can request Application owner ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="332" y="-821" width="191" height="26" as="geometry" />
+          <mxGeometry x="636" y="-635" width="191" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-14" value="Request Type - Application&amp;nbsp; - Approval Type" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="-725" width="429" height="60" as="geometry" />
@@ -843,6 +842,28 @@
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-24" value="Request Type Configuration&amp;nbsp;(Access Required)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-357" y="-768" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rtTkLqYB_5gCnOGBdNa0-29" target="rtTkLqYB_5gCnOGBdNa0-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-35" value="approved" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rtTkLqYB_5gCnOGBdNa0-34">
+          <mxGeometry x="-0.1896" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-37" value="Rejected" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rtTkLqYB_5gCnOGBdNa0-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-174" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-29" value="action taken" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-214" y="-31" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-33" value="Need application approval ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-31" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-38" value="Close the request and sent notifications" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="132" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
