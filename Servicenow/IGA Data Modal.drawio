@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T01:47:50.579Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="LXIThfgP6n7GzDxrb2X8" version="21.6.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-08-28T01:49:10.413Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="cfUDqncRdlouDMCLoyCy" version="21.6.8" type="github" pages="7">
   <diagram name="Page-1" id="3WmewH49MC0YbbfD4fiM">
     <mxGraphModel dx="4124" dy="2353" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -773,7 +773,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-4" value="Request Created" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-232" y="-398" width="120" height="60" as="geometry" />
+          <mxGeometry x="-240.75" y="-442" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.159;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rtTkLqYB_5gCnOGBdNa0-5" target="rtTkLqYB_5gCnOGBdNa0-9">
           <mxGeometry relative="1" as="geometry" />
@@ -782,7 +782,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-5" value="Check next step based on request workflow mapping" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-226.5" y="-307" width="109" height="105" as="geometry" />
+          <mxGeometry x="-244" y="-315" width="126.5" height="113" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-6" value="Can request manager approval ?&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="636" y="-711" width="193" height="26" as="geometry" />
@@ -814,8 +814,8 @@
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-16" value="Mapping b/w Request Type and Approvers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="242.5" y="-620" width="244" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rtTkLqYB_5gCnOGBdNa0-19" value="1. Require request approval ?&lt;br&gt;2. Required application owner approval ?&lt;br&gt;2. Auto provision upon approval?&lt;br&gt;3. Email Template for approval&lt;br&gt;4. Email template for Rejection" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-345" y="-706" width="236" height="84" as="geometry" />
+        <mxCell id="rtTkLqYB_5gCnOGBdNa0-19" value="1. Require request approval ?&lt;br&gt;2. Required application owner approval ?&lt;br&gt;2. Auto provision upon approval or &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;manual provision via Response Task?&lt;br&gt;3. Email Template for approval&lt;br&gt;4. Email template for Rejection" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-353" y="-703" width="246" height="98" as="geometry" />
         </mxCell>
         <mxCell id="rtTkLqYB_5gCnOGBdNa0-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
