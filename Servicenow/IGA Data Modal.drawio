@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T01:30:45.371Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="AFDfYDkVDVqBK74f9whp" version="21.6.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-30T01:32:33.893Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="njz1PxnObTBxQoo4Zdli" version="21.6.9" type="github" pages="9">
   <diagram name="Data modal" id="3WmewH49MC0YbbfD4fiM">
     <mxGraphModel dx="3706" dy="2036" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1064,7 +1064,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-8" value="Check the requested profile exist in trusted HR System" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-8" value="Check the requested profile exist in trusted HR System" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="136" y="-1906" width="126.5" height="113" as="geometry" />
         </mxCell>
         <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-9" value="&lt;br&gt;Application Request - Miro Request&lt;br&gt;&lt;br&gt;Require request approval - YES&lt;br&gt;Required application owner approval - YES&lt;br&gt;Auto provision upon approval or &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;manual provision via Response Task - AUTO&lt;br&gt;3. Email Template for approval&amp;nbsp;&lt;br&gt;4. Email template for Rejection&lt;br&gt;6. How long we need access - default value" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -1081,13 +1081,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-13" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gx7s3SFq2YxS4pq4Cu9M-14">
+        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-13" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.396;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Gx7s3SFq2YxS4pq4Cu9M-14" target="Gx7s3SFq2YxS4pq4Cu9M-19">
           <mxGeometry x="-0.0033" relative="1" as="geometry">
             <mxPoint x="206" y="-1462" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-14" value="birth right access property enabled" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-14" value="birth right access property enabled" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="131.13" y="-1608" width="136.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gx7s3SFq2YxS4pq4Cu9M-18" target="Gx7s3SFq2YxS4pq4Cu9M-54">
@@ -1106,10 +1106,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-18" value="Check for Roles/Groups and available birth right access" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-18" value="Check for Roles/Groups and available birth right access" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="400" y="-1622" width="131" height="107" as="geometry" />
         </mxCell>
-        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-19" value="Close the request and sent notifications" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-19" value="Close the request and sent notifications" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="100" y="-1318" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-20" value="Draft" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
@@ -1195,15 +1195,7 @@
         <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-48" value="Application Request - Miro - Group -MiroAdminsGroups" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-433" y="-1379.5" width="313" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gx7s3SFq2YxS4pq4Cu9M-54" target="Gx7s3SFq2YxS4pq4Cu9M-57">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-52" value="rejected" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gx7s3SFq2YxS4pq4Cu9M-51">
-          <mxGeometry x="-0.1" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-54" value="Close the request" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-54" value="Close the request and sent notifications" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="646" y="-1598.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gx7s3SFq2YxS4pq4Cu9M-56" target="Gx7s3SFq2YxS4pq4Cu9M-61">
@@ -1211,9 +1203,6 @@
         </mxCell>
         <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-56" value="Submit for provisoning" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="649" y="-1282" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-57" value="Mark Request rejected" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="901" y="-1691" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-59" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gx7s3SFq2YxS4pq4Cu9M-61" target="Gx7s3SFq2YxS4pq4Cu9M-62">
           <mxGeometry relative="1" as="geometry" />
@@ -1226,6 +1215,14 @@
         </mxCell>
         <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-62" value="Create RT and assign to application owner" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="489" y="-1142" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JwLT8jRxz6jVd2h2E42r-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gx7s3SFq2YxS4pq4Cu9M-63" target="Gx7s3SFq2YxS4pq4Cu9M-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="955" y="-1112" />
+              <mxPoint x="955" y="-1568" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Gx7s3SFq2YxS4pq4Cu9M-63" value="Create User accounts with required entitlements" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="809" y="-1142" width="120" height="60" as="geometry" />
@@ -1262,7 +1259,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JwLT8jRxz6jVd2h2E42r-14" value="Approval required for application owner?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JwLT8jRxz6jVd2h2E42r-14" value="Approval required for application owner?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="310" y="-1448" width="131" height="107" as="geometry" />
         </mxCell>
         <mxCell id="JwLT8jRxz6jVd2h2E42r-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JwLT8jRxz6jVd2h2E42r-15" target="Gx7s3SFq2YxS4pq4Cu9M-56">
