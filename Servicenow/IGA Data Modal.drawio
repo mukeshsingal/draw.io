@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T03:11:01.028Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="KbLHVUC-GUbyFa55t_ch" version="21.6.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-08-31T03:14:48.594Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="r1UonVbaQdcylv1dCGPP" version="21.6.9" type="github" pages="10">
   <diagram name="Data modal" id="3WmewH49MC0YbbfD4fiM">
     <mxGraphModel dx="4919" dy="2614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -839,7 +839,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QLyJc2I4IRRkQ6KKiwE5" name="Access Request">
-    <mxGraphModel dx="3051" dy="2129" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3839" dy="2457" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1301,10 +1301,19 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JEFcNBUZNAPMYGXwFCun" name="2. Application Request - Miro Request">
-    <mxGraphModel dx="3615" dy="3531" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4015" dy="3931" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Q695R4Vg1QPSLkD7w6fr-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="-1666" y="-1819.75" width="1360" height="302.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Q695R4Vg1QPSLkD7w6fr-2" value="Request Workflow Configuration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;strokeWidth=3;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1194" y="-1870.25" width="267" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3peNCuSX-hGsQr71uut-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="-1666" y="-2255" width="1206" height="368" as="geometry" />
+        </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4IYk5wBnLh3wlRJA1NdD-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="206" y="-1625" as="targetPoint" />
@@ -1322,20 +1331,14 @@
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4IYk5wBnLh3wlRJA1NdD-9" target="4IYk5wBnLh3wlRJA1NdD-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4IYk5wBnLh3wlRJA1NdD-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4IYk5wBnLh3wlRJA1NdD-9" target="4IYk5wBnLh3wlRJA1NdD-60">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4IYk5wBnLh3wlRJA1NdD-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="4IYk5wBnLh3wlRJA1NdD-9" target="4IYk5wBnLh3wlRJA1NdD-59">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-9" value="Check next step based on request workflow mapping" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="136" y="-1906" width="126.5" height="113" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-20" value="&lt;br&gt;Application Request - Miro Request&lt;br&gt;&lt;br&gt;Require request approval - YES&lt;br&gt;Required application owner approval - YES&lt;br&gt;Auto provision upon approval or &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;manual provision via Response Task - AUTO&lt;br&gt;3. Email Template for approval&amp;nbsp;&lt;br&gt;4. Email template for Rejection&lt;br&gt;6. How long we need access - default value" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-711" y="-1620" width="282" height="156" as="geometry" />
+          <mxGeometry x="-1567" y="-1689.75" width="282" height="156" as="geometry" />
         </mxCell>
-        <mxCell id="4IYk5wBnLh3wlRJA1NdD-25" value="Request Type Configuration&amp;nbsp;(Access Required)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-709" y="-1674" width="290" height="60" as="geometry" />
+        <mxCell id="4IYk5wBnLh3wlRJA1NdD-25" value="Request Type Configuration&amp;nbsp;(Access Required)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1565" y="-1743.75" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4IYk5wBnLh3wlRJA1NdD-29" target="4IYk5wBnLh3wlRJA1NdD-30">
           <mxGeometry relative="1" as="geometry" />
@@ -1401,60 +1404,55 @@
           <mxGeometry x="649" y="-1149" width="212" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-43" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 23px;&quot;&gt;&lt;b&gt;An existing employee needs access to the Miro tool&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1. He will log into the Self-service catalog and we will see a list of applications users can request for&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1.1 We only see applications IGA admin has enabled and allowed for requesting&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1.2 We will also see if the IGA admin allows a user with a specific role can request that&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2. If eligible, the user will see the catalog item for MIRO&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3. The user will fill in the How long, we need that access, provide justification.&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;4. A request will be created on user&#39;s behalf once the catalog item is ordered&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;5. Based on the request and request type different approval processes will kick in&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-1264" y="-2202" width="947" height="232" as="geometry" />
+          <mxGeometry x="-1317" y="-2600" width="947" height="232" as="geometry" />
         </mxCell>
-        <mxCell id="4IYk5wBnLh3wlRJA1NdD-45" value="Identity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1333" y="-1871" width="193" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="4IYk5wBnLh3wlRJA1NdD-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4IYk5wBnLh3wlRJA1NdD-47">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1214" y="-1815" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="4IYk5wBnLh3wlRJA1NdD-45" value="Identity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1588" y="-2167" width="193" height="44" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-47" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Mukesh, Singal mukes.singal@sn.com&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1329" y="-1803" width="230" height="36" as="geometry" />
+          <mxGeometry x="-1630" y="-2093" width="230" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="4IYk5wBnLh3wlRJA1NdD-48" value="Pofile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1337" y="-1759" width="193" height="44" as="geometry" />
+        <mxCell id="4IYk5wBnLh3wlRJA1NdD-48" value="Pofile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1356" y="-2169" width="193" height="44" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-49" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Mukesh, Singal mukes.singal@sn.com, SDE, Vineet, SecOps, Hyderabad&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1329" y="-1694" width="230" height="36" as="geometry" />
+          <mxGeometry x="-1348" y="-2104" width="230" height="36" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-50" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Related List: Org Roles accounts, Groups, entitlements&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1313" y="-1647" width="326" height="36" as="geometry" />
+          <mxGeometry x="-1332" y="-2057" width="326" height="36" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-52" value="Roles: SecOps - Software Engineer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1302" y="-1618" width="207" height="26" as="geometry" />
+          <mxGeometry x="-1321" y="-2028" width="207" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-53" value="Groups: SIR1, SHIELD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1302" y="-1587" width="141" height="26" as="geometry" />
+          <mxGeometry x="-1321" y="-1997" width="141" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-54" value="Enttitlements: Buildtools-user, Okta-user, github-developer, integraton-library-admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1302" y="-1555" width="460" height="26" as="geometry" />
+          <mxGeometry x="-1321" y="-1965" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="4IYk5wBnLh3wlRJA1NdD-55" value="Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="-1871" width="193" height="44" as="geometry" />
+        <mxCell id="4IYk5wBnLh3wlRJA1NdD-55" value="Application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-927" y="-2173" width="193" height="44" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-56" value="Miro&lt;br&gt;Status - E&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;nabled&lt;br&gt;&lt;/span&gt;Roles who can request for this access&lt;br&gt;or condition&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="-1817" width="220" height="70" as="geometry" />
+          <mxGeometry x="-927" y="-2119" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4IYk5wBnLh3wlRJA1NdD-57" value="Entitlements" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-554" y="-1871" width="193" height="44" as="geometry" />
+        <mxCell id="4IYk5wBnLh3wlRJA1NdD-57" value="Entitlements" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-676" y="-2177" width="193" height="44" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-58" value="miro.visitors&lt;br&gt;miro.guest&lt;br&gt;miro.company.admin&lt;br&gt;miro.members" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-554" y="-1813" width="128" height="70" as="geometry" />
+          <mxGeometry x="-676" y="-2119" width="128" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4IYk5wBnLh3wlRJA1NdD-59" value="Request Type - Stage(order) - Approval Type" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-394" y="-1537" width="429" height="60" as="geometry" />
+        <mxCell id="4IYk5wBnLh3wlRJA1NdD-59" value="Request Type - Stage(order) - Approval Type" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-802" y="-1747.75" width="429" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4IYk5wBnLh3wlRJA1NdD-60" value="Request Type - Application&amp;nbsp; - Approval Type" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-393" y="-1678" width="429" height="60" as="geometry" />
+        <mxCell id="4IYk5wBnLh3wlRJA1NdD-60" value="Request Type - Application&amp;nbsp; - Approval Type" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1249" y="-1747.75" width="429" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-63" value="Application access - Stage 1 - Manager&lt;br&gt;Application access - Stage 2 - Group (Optional)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-394" y="-1462.5" width="269" height="41" as="geometry" />
+          <mxGeometry x="-802" y="-1673.25" width="269" height="41" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-64" value="Application Request - Miro - Group -MiroAdminsGroups" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-392" y="-1607.5" width="313" height="26" as="geometry" />
+          <mxGeometry x="-1248" y="-1677.25" width="313" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4IYk5wBnLh3wlRJA1NdD-65" target="4IYk5wBnLh3wlRJA1NdD-68">
           <mxGeometry relative="1" as="geometry">
@@ -1508,6 +1506,12 @@
         </mxCell>
         <mxCell id="4IYk5wBnLh3wlRJA1NdD-81" value="Create User accounts with required entitlements" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="565.5" y="-1271.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RF65CDqD_u9n95sZr7Jx-1" value="Repository" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;strokeWidth=3;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1163" y="-2318" width="102" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="Ob20VkU1g1VLp9miatRv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q695R4Vg1QPSLkD7w6fr-1" target="Q695R4Vg1QPSLkD7w6fr-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
