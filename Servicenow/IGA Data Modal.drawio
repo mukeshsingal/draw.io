@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T03:27:20.611Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="eNOVkX2jYEa189SlPXNq" version="21.6.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-08-31T04:05:49.636Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="yKhlGI1PAEkwCJWeOrGI" version="21.6.9" type="github" pages="10">
   <diagram name="Data modal" id="3WmewH49MC0YbbfD4fiM">
     <mxGraphModel dx="4919" dy="2614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -360,12 +360,12 @@
         <mxCell id="pM7y19zhNN6QvLyryo5s-185" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" parent="pM7y19zhNN6QvLyryo5s-184" vertex="1">
           <mxGeometry y="24" width="314" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pM7y19zhNN6QvLyryo5s-187" value="Roles Contains Role" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;rounded=1;labelBackgroundColor=none;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" parent="1" vertex="1">
+        <mxCell id="pM7y19zhNN6QvLyryo5s-187" value="Roles Contains Role" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;rounded=1;labelBackgroundColor=none;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" parent="1" vertex="1">
           <mxGeometry x="-125" y="153" width="314" height="84" as="geometry">
             <mxRectangle x="-1690" y="-295" width="122" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pM7y19zhNN6QvLyryo5s-267" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" parent="pM7y19zhNN6QvLyryo5s-187" source="pM7y19zhNN6QvLyryo5s-188" edge="1">
+        <mxCell id="pM7y19zhNN6QvLyryo5s-267" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;fontColor=#1D3557;fillColor=#ffe6cc;" parent="pM7y19zhNN6QvLyryo5s-187" source="pM7y19zhNN6QvLyryo5s-188" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-137" y="-29.428571428571104" as="targetPoint" />
           </mxGeometry>
@@ -373,7 +373,7 @@
         <mxCell id="pM7y19zhNN6QvLyryo5s-188" value="role" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#1D3557;rounded=1;labelBackgroundColor=none;fontStyle=1;shadow=0;comic=0;backgroundOutline=0;fixDash=0;snapToPoint=0;strokeOpacity=100;fillOpacity=100;arcSize=8;" parent="pM7y19zhNN6QvLyryo5s-187" vertex="1">
           <mxGeometry y="24" width="314" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pM7y19zhNN6QvLyryo5s-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" parent="pM7y19zhNN6QvLyryo5s-187" source="pM7y19zhNN6QvLyryo5s-189" edge="1">
+        <mxCell id="pM7y19zhNN6QvLyryo5s-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;fontColor=#1D3557;fillColor=#ffe6cc;" parent="pM7y19zhNN6QvLyryo5s-187" source="pM7y19zhNN6QvLyryo5s-189" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-111.28571428571377" y="-26.57142857142844" as="targetPoint" />
           </mxGeometry>
@@ -998,7 +998,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Gph68ZAszao3tvuL5EsJ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="-1486" y="-1512" width="1356" height="186" as="geometry" />
+          <mxGeometry x="-1498" y="-1513" width="1425" height="186" as="geometry" />
         </mxCell>
         <mxCell id="Gph68ZAszao3tvuL5EsJ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=none;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
           <mxGeometry x="-1488" y="-1922" width="1282" height="332" as="geometry" />
@@ -1188,7 +1188,7 @@
           <mxGeometry x="886" y="-806" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DQI6tyK61wXxPAga4NJX-1" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(255, 153, 51); font-size: 23px;&quot;&gt;A new employee joins the company and needs access to the default application based on the Custom Role / Groups&lt;/b&gt;&lt;br&gt;1. A new employee joins the company,&amp;nbsp;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; 1.1&amp;nbsp;&lt;/span&gt;&lt;/span&gt;HR must have created a new employee in an HR tool like AD/Workday or directly created in IGA too&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; 1.2 User can also directly create IGA New employee request from IGA meaning we will create user identity in HR system&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; We will capture where the request coming from Manual / Connectors(Sync)&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/blockquote&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;2. We need a connector with the HR tool to pull user information and to know if a new employee joined.&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;3. Newly joined employees need birthright access to the IGA self-service portal&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;4. Based on user information different birthright access will automatically be given/provisioned" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-1488" y="-2227" width="1285" height="208" as="geometry" />
+          <mxGeometry x="-1488" y="-2359" width="1285" height="208" as="geometry" />
         </mxCell>
         <mxCell id="JwLT8jRxz6jVd2h2E42r-1" value="&lt;font color=&quot;#ff9933&quot;&gt;Office365&lt;/font&gt;&lt;br&gt;Status - E&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;nabled&lt;br&gt;&lt;/span&gt;Roles who can request for this access&lt;br&gt;or condition&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-723" y="-1756" width="220" height="70" as="geometry" />
